@@ -9,5 +9,7 @@ $s = $x -$y;
 echo("Subtraction of x and y $s");
 // echo()
 
-
+$str1 = "HI MR."
+$str2 = "PREM AMAN"
+echo()
 ?>
