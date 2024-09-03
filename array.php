@@ -32,8 +32,13 @@
 $user = array("ram ,","shyam ,","sita ,","geeta ,");
 unset($user[2]);//its removes the element whose index is given
 print_r($user);//used to print arrays
-array_push($user,"khushi");
+array_push($user,"khushi");//add the element to the array at the last
 print_r($user);
-array_pop($user);//used to remove the last element of the array
-
+array_pop($user);
+//used to remove the last element of the array
+echo("<br>");
+echo implode($user);//print array element in continuous way
+echo("<br>");
+$user1 = array("hi","bye","hello","tata");
+print_r(array_merge($user,$user1));
 ?>
