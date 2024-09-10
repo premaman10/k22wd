@@ -29,16 +29,38 @@
 // }
 
 
-$user = array("ram ,","shyam ,","sita ,","geeta ,");
-unset($user[2]);//its removes the element whose index is given
-print_r($user);//used to print arrays
-array_push($user,"khushi");//add the element to the array at the last
-print_r($user);
-array_pop($user);
-//used to remove the last element of the array
-echo("<br>");
-echo implode($user);//print array element in continuous way
-echo("<br>");
-$user1 = array("hi","bye","hello","tata");
-print_r(array_merge($user,$user1));
+// $user = array("ram ,","shyam ,","sita ,","geeta ,");
+// unset($user[2]);//its removes the element whose index is given
+// print_r($user);//used to print arrays
+// array_push($user,"khushi");//add the element to the array at the last
+// print_r($user);
+// array_pop($user);
+// //used to remove the last element of the array
+// echo("<br>");
+// echo implode($user);//print array element in continuous way
+// echo("<br>");
+// $user1 = array("hi","bye","hello","tata");
+// print_r(array_merge($user,$user1));
+
+
+$a1 = array("a"=>"red","b"=>"green","c"=>"blue");
+$a2 = array("1"=>"red","2"=>"green","3"=>"blue");
+// $result = array_diff($a1,$a2);
+// print_r($result);
+// $res = array_flip($a1);
+// print_r($res);//interchnage the value and keys
+
+// $re = array_intersect($a1,$a2);
+// print_r($re); shows common elements
+
+// $r = array_merge($a1,$a2);
+// print_r($r);merges teo arrays
+
+array_pop($a1);
+print_r($a1);
+
+print_r(array_reverse($a1));
+
+
+echo array_search("red",$a1);
 ?>
