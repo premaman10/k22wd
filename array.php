@@ -37,7 +37,7 @@
 // array_pop($user);
 // //used to remove the last element of the array
 // echo("<br>");
-// echo implode($user);//print array element in continuous way
+// echo implode($user);//print array element in contica1nuous way
 // echo("<br>");
 // $user1 = array("hi","bye","hello","tata");
 // print_r(array_merge($user,$user1));
