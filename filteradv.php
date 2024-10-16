@@ -1,5 +1,5 @@
 <?php
-$int = 230; //variable to check 
+$int = 190; //variable to check 
 $min = 1; //min value
 $max = 200; //max value
 
